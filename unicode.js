@@ -86,20 +86,20 @@ Assign the result to a variable named swappedString.
 //Starter Code
 // Task 1
 let inputString1 = "Code";
-let firstCodePoint; // Your code here
-let thirdCodePoint; // Your code here
+let firstCodePoint = inputString1.charCodeAt(0);
+let thirdCodePoint = inputString.charCodeAt(2);
 
 // Task 2
-let wordFromCodePoints; // Your code here
+let wordFromCodePoints = String.fromCharCode(74,97,118, 97, 83,99,114, 105, 112, 116);
 
 // Task 3
 let inputString2 = "Launch";
-let swappedString; // Your code here
+let swappedString = inputString2.slice(-1) + inputString2.slice(1, -1) + inputString2[0];
 
 // Log all results
 console.log({
-  firstCodePoint,
-  thirdCodePoint,
-  wordFromCodePoints,
-  swappedString,
+  firstCodePoint(The Unicode value of the first character is O);
+  thirdCodePoint(The Unicode value for the third character is E);
+  wordFromCodePoints(Word from Unicode code points);
+  swappedString(Swapped string for Launch);
 });
